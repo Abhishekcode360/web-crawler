@@ -29,6 +29,8 @@ No output.json will be generated in this case.
 
 2. Correct Input & urls generation
 
+Curl:
+
 ```bash
 curl -X POST http://localhost:8080/webcrawl \
 -H "Content-Type: application/json" \
