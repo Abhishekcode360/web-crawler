@@ -4,9 +4,9 @@ This a Web-Crawlar service that extract all the relevant urls that are present i
 
 To start the service : 
 
-Switch to '**main**' branch.
-Redirect to /src folder that contains main.go.
-Run the '**go run main.go**'.
+1. Switch to '**main**' branch.
+2. Redirect to /src folder that contains main.go.
+3. Run the '**go run main.go**'.
 
 
 **Usage of service**
@@ -36,7 +36,7 @@ curl -X POST http://localhost:8080/webcrawl \
 ```
 
 ```
-Sample Output : {"error":"invalid input format"}
+Sample Output : {"message":"crawling completed, data saved to output.json"}
 ```
 
 output.json will be generated in this case.
